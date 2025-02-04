@@ -10,6 +10,7 @@ No [[2025-02-04#Abstraktā sintakse]]
 
 ## Aksiomātiskā semantika
 Semantika ar noteiktām sākuma un beigu stāvokļu īpašībām
+
 Skatīt [[#Semantika]]
 # Ā
 
@@ -23,6 +24,7 @@ Skatīt [[#Semantika]]
 
 ## Dabiskā semantika
 Saista programmas sākuma un beigu stāvokļus.
+
 Skatīt [[#Semantika]]
 # E
 
@@ -78,6 +80,7 @@ No [[2025-02-04#Programmas momentuzņēmums]]
 
 ## Semantika
 Ko [[#Sintakse]] konstrukcijas nozīmē izpildes laikā.
+
 Skatīt arī [[Valodu_sintakse_un_semantika/Jēdzieni#Strukturālā operacionālā semantika|Strukturālā operacionālā semantika]], [[Valodu_sintakse_un_semantika/Jēdzieni#Dabiskā semantika|Dabiskā semantika]], [[Valodu_sintakse_un_semantika/Jēdzieni#Aksiomātiskā semantika|Aksiomātiskā semantika]]
 
 Veidots no [[2025-02-04#Semantika]]
