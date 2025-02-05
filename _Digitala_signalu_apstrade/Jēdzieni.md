@@ -10,6 +10,24 @@
 
 # D
 
+## Digitāla sistēma
+
+Programmatūra, kas veic digitālu signālu apstrādi.
+
+Digitālas sistēmas var:
+- pārprogrammēt
+- pārvietot dažādām aparatūrām
+- Pavairot
+- Nav atkarīgas no komponenšu precizitātes
+- Rezultāts ir neatkarīgs no ārējiem faktoriem (piem. temperatūras)
+- Vienkāršākas: Digitālas sistēmas bieži ir vienkāršākas nekā to analogie ekvivalenti.
+
+No [[2025-02-05#DSP priekšrocības]]
+## Digitālo signālu apstrāde
+
+Digitālā signālu apstrāde ir kā pārvērst kaut kāda mēra analogus datus digitālos datos (nepilnīga definīcija)
+
+No [[2025-02-05#DSP]]
 # E
 
 # Ē
