@@ -81,7 +81,7 @@ No [[2025-02-04#Programmas momentuzņēmums]]
 ## Semantika
 Ko [[#Sintakse]] konstrukcijas nozīmē izpildes laikā.
 
-Skatīt arī [[Valodu_sintakse_un_semantika/Jēdzieni#Strukturālā operacionālā semantika|Strukturālā operacionālā semantika]], [[Valodu_sintakse_un_semantika/Jēdzieni#Dabiskā semantika|Dabiskā semantika]], [[Valodu_sintakse_un_semantika/Jēdzieni#Aksiomātiskā semantika|Aksiomātiskā semantika]]
+Skatīt arī [[_Valodu_sintakse_un_semantika/Jēdzieni#Strukturālā operacionālā semantika|Strukturālā operacionālā semantika]], [[_Valodu_sintakse_un_semantika/Jēdzieni#Dabiskā semantika|Dabiskā semantika]], [[_Valodu_sintakse_un_semantika/Jēdzieni#Aksiomātiskā semantika|Aksiomātiskā semantika]]
 
 Veidots no [[2025-02-04#Semantika]]
 
