@@ -20,6 +20,10 @@
 
 # Ģ
 
+## Grover's search
+
+Meklēšanas algoritms kvadrātiski ātrāk nekā tradicionāliem datoriem. $N$ tradicionāli, $\sqrt{N}$ ar Grover's search.
+
 # H
 
 # I
@@ -29,6 +33,19 @@
 # J
 
 # K
+
+## Kubits
+
+kvantu bits, eksistē superpozīcijā starp $\ket{0}$ un $\ket{1}$
+Precīzāk, kubita vērtība ir $\alpha\ket{0} + \beta\ket{1}$, kur $\alpha, \beta \in \mathbb{C}, |\alpha|^2 + |\beta|^2 = 1$
+
+## Kvantu sapinums
+
+Divas daļiņas, kuras ir "sapītas" spēj ietekmēt cita citu
+
+## Kvantu dators
+
+[[#Kubits|Kubitu]] reģistrs, kas ļauj mērīt, mainīt, manipulēt tos.
 
 # Ķ
 
@@ -47,6 +64,9 @@
 # P
 
 # Q
+
+## Qubit
+![[#Kubits]]
 
 # R
 
