@@ -156,7 +156,7 @@ An extra operator that can be introduced in a [[#Boolean retrieval model]] that 
 
 This does mean that the model needs the original text, not just a [[#Bag of words]].
 
-From [[2025-02-07#Boolean retrieval model]]
+From [[2025-02-07#bool]]
 # X
 
 # Y
