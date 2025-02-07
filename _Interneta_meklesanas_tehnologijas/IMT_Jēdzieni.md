@@ -30,6 +30,15 @@ From [[2025-02-07#Boolean retrieval model]]
 
 From [[2025-02-07#Classic Information retrieval]]
 
+## Cosine similarity
+This is the cosine similarity of a query and a document.
+$$
+\textit{sim}\left(q,d\right)
+\cos \alpha = 
+\frac{q\cdot d}{|q| \cdot |d|} = 
+\frac{\sum_{i=1}^{n}{q_i\cdot d_i}}{\sqrt{\sum^{n}_{i=1}{q_i^2}} \cdot \sqrt{\sum^{n}_{i=1}{d_i^2}}}$$
+
+From [[2025-02-07#Vector space model]]
 ## Crawling
 
 
@@ -127,10 +136,39 @@ A method to rank different webpages in a way that doesn't harm them, when webpag
 
 No [[2025-02-07#IR pamati]], [[2025-02-07#Link analysis]]
 
+## Pooling
+
+Mechanism to reduce the size of a collection while retaining or hopefully improving [[IMT_Jēdzieni#Precision|Precision]] of the pooled data.
+
+This is done by combining multiple search engine system results, taking the top X results from each and combining the sets. The pool size may vary because it depends on how many times systems find the same resource relevant.
+
+From [[2025-02-07#Pooling for calculating recall]]
+
+## Precision
+
+Precision: Precentage of the relevant documents we retrieved
+
+$$
+P = \frac{\mathit{RETR}\cap \mathit{REL}}{\mathit{RETR}}
+$$
+From [[2025-02-07#Precision and recall]]
+
+## Precision-Recall curve
+
+Plot of the balance of different algoritms, where [[#Precision]] and [[#Recall]] define the x and y axes.
 # Q
 
 # R
 
+## Recall
+
+Recall: How many of the relevant documents we have retrieved
+
+$$
+R = \frac{\mathit{RETR}\cap \mathit{REL}}{\mathit{REL}}
+$$
+
+From [[2025-02-07#Precision and recall]]
 # S
 
 ## Search Engine Optimization (SEO)
@@ -144,6 +182,12 @@ Additional information in webpages that can be used by search engines. Especiall
 For example, recognizing reviews.
 
 From [[2025-02-07#Semantic web, Social web, Open data]]
+
+## Standard Recall values
+
+The usual recall values at which a [[#Precision-Recall curve]] is interpolated.
+The standard recall values are:
+0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0
 
 # Š
 
@@ -162,6 +206,10 @@ See [[2025-02-07#Vector space model]]
 # Ū
 
 # V
+
+## Vector space model
+
+A search model that uses [[#Document Vector|Document vectors]] to get the similarity between documents and queries
 
 # W
 
