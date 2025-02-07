@@ -42,6 +42,13 @@ From [[2025-02-07#Classic Information retrieval]]
 Web resources that take special precautions to not be found. 
 
 From [[2025-02-07#The invisible web]]
+
+## Document Vector
+
+A grid of what words lie in a document
+
+From [[2025-02-07#Vector space model]]
+
 # E
 
 # Ē
@@ -116,9 +123,9 @@ From [[2025-02-07#Semantic web, Social web, Open data]]
 
 ## Page Rank
 
-Veids kā sakārto dažādus pieejamos resursus
+A method to rank different webpages in a way that doesn't harm them, when webpages have a lot of outgoing links. Only incoming links are relevant.
 
-No [[2025-02-07#IR pamati]]
+No [[2025-02-07#IR pamati]], [[2025-02-07#Link analysis]]
 
 # Q
 
@@ -142,6 +149,14 @@ From [[2025-02-07#Semantic web, Social web, Open data]]
 
 # T
 
+## Term Vector
+![[#Document Vector]]
+
+## Term weights
+
+A calculation used to find common, but distinctive terms for calculating the similarity.
+
+See [[2025-02-07#Vector space model]]
 # U
 
 # Ū
