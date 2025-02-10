@@ -24,6 +24,11 @@ This is a data *filtering* model, not a *sorting* model.
 From [[2025-02-07#Boolean retrieval model]]
 # C
 
+## CAPTCHA
+
+CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) is **a type of security measure known as challenge-response authentication**.
+
+
 ## Classic IR
 
 [[#Information Retrieval (IR)]] before ~2013 when traditional algorithms were used instead of [[#Natural Language Processing (NLP)]] and Machine learning
@@ -39,7 +44,8 @@ $$
 \frac{\sum_{i=1}^{n}{q_i\cdot d_i}}{\sqrt{\sum^{n}_{i=1}{q_i^2}} \cdot \sqrt{\sum^{n}_{i=1}{d_i^2}}}$$
 
 From [[2025-02-07#Vector space model]]
-## Crawling
+## Crawler
+A program that reads websites and indexes or registers their content.
 
 
 # Č
@@ -60,18 +66,45 @@ From [[2025-02-07#Vector space model]]
 
 # E
 
+## Explicit relevance feedback
+
+[[#Relevance feedback]] That is acquired by the user explicitly changing the search parameters or some other information (for example changing the query)
+
+From [[2025-02-07#Explicit relevance feedback]]
+
+See [[#Relevance feedback]]
+
+
 # Ē
 
 # F
 
 # G
 
+## Google
+The biggest search engine in the world. It has like 92% market share.
+You know what it is, stop playing dumb.
+
+From [[2025-02-10#Google]]
+More on [[2025-02-10#How Google searches (at least kinda)]]
 # Ģ
 
 # H
 
 # I
 
+## Implicit Relevance Feedback
+
+[[#Relevance feedback]] that is gained without explicit user interaction.
+- Click-through rate
+- time on-site
+- Bounce rate
+- Conversion rate
+- Returning visitors
+
+From [[2025-02-07#Implicit relevance feedback]]
+
+See also [[#Relevance feedback]]
 ## Information Retrieval (IR)
 
 Termins, kas radies ap 1950-ajiem.
@@ -98,6 +131,11 @@ From [[2025-02-07#The invisible web]]
 
 # L
 
+## LLM (Large Language Model)
+
+From [Large language model - Wikipedia](https://en.wikipedia.org/wiki/Large_language_model)
+> A **large language model** (**LLM**) is a type of [machine learning](https://en.wikipedia.org/wiki/Machine_learning "Machine learning") [model](https://en.wikipedia.org/wiki/Model#Conceptual_model "Model") designed for [natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing "Natural language processing") tasks such as language [generation](https://en.wikipedia.org/wiki/Generative_artificial_intelligence "Generative artificial intelligence"). LLMs are [language models](https://en.wikipedia.org/wiki/Language_model "Language model") with many parameters, and are trained with [self-supervised learning](https://en.wikipedia.org/wiki/Self-supervised_learning "Self-supervised learning") on a vast amount of text.
+
 ## Link analysis
 
 Algorithm to figure out the importance of documents, neighbourhoods.
@@ -120,6 +158,23 @@ For example, keywords, titles of books, release date.
 
 Algorithms for understanding text, not just matching keywords
 
+## NavBoost
+
+A tool by [[#Google]] that gathered data on users through the Google Chrome browser to improve the search results.
+
+From [[2025-02-10#NavBoost]]
+
+
+## Nofollow-links
+
+In 2005, google introduced this type of links. They mark links as potential spam or other types of links that any crawlers should discard completely. They are still used to indicate that they should be discarded by search engines
+
+```html
+<a rel=”nofollow” href=”privacy.html”>Privacy policy</a>
+```
+
+From [[2025-02-10#Specialized links]]
+
 # Ņ
 
 # O
@@ -136,6 +191,9 @@ A method to rank different webpages in a way that doesn't harm them, when webpag
 
 No [[2025-02-07#IR pamati]], [[2025-02-07#Link analysis]]
 
+## Polite crawler
+
+A [[#Crawler]] that obeys [[#Sitemap|Sitemaps]] and [[#Robots.txt]] pages for what to index and what to ignore.
 ## Pooling
 
 Mechanism to reduce the size of a collection while retaining or hopefully improving [[IMT_Jēdzieni#Precision|Precision]] of the pooled data.
@@ -169,6 +227,24 @@ R = \frac{\mathit{RETR}\cap \mathit{REL}}{\mathit{REL}}
 $$
 
 From [[2025-02-07#Precision and recall]]
+
+## Relevance feedback
+
+A metric/metrics which show what is relevant by using the information from users to improve the search results.
+
+See also [[#Implicit Relevance Feedback]], [[#Explicit relevance feedback]]
+
+From [[2025-02-07#Relevance feedback]]
+
+## Robots Exclusion Protocol
+![[#Robots.txt]]
+
+## Robots.txt 
+
+Also called the [[#Robots Exclusion Protocol]], it indicates to polite crawlers, which pages should or shouldn't be crawled.
+
+From [[2025-02-10#Robots exclusion protocol]]
+
 # S
 
 ## Search Engine Optimization (SEO)
@@ -182,6 +258,26 @@ Additional information in webpages that can be used by search engines. Especiall
 For example, recognizing reviews.
 
 From [[2025-02-07#Semantic web, Social web, Open data]]
+
+## Sitemap
+
+A map containing all links that are accessible to crawlers/users.
+
+It is used to "flatten" the depth of links for crawlers. This way they only need around 2 page jumps to get to every page
+
+
+From [[2025-02-10#Sitemap]]
+
+## Sponsored links
+
+
+```html
+<a rel="sponsored" href="example.com">MySponsor</a>
+```
+
+This is used for advertisements, sponsorships. Crawlers may have special handling for these
+
+From [[2025-02-10#Specialized links]]
 
 ## Standard Recall values
 
@@ -202,6 +298,19 @@ A calculation used to find common, but distinctive terms for calculating the sim
 
 See [[2025-02-07#Vector space model]]
 # U
+
+## UGC (User Generated Content)
+
+
+```html
+<a rel="ugc" href="example.com">ROFL</a>
+```
+
+These links indicate that they were generated by users such as comments or forum posts
+
+Crawlers may use special behaviour for these.
+
+From [[2025-02-10#Specialized links]]
 
 # Ū
 
