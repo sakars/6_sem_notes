@@ -289,6 +289,12 @@ The standard recall values are:
 
 # T
 
+## Term frequency
+
+$\mathit{tf}_{ij}$ is the frequency of the $j$-th term in the $i$-th document.
+
+Frequency just means how many occurrences of that term appears
+
 ## Term Vector
 ![[#Document Vector]]
 

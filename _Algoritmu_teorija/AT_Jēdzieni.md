@@ -76,6 +76,7 @@ No [[2025-02-04#Čērča-Tjūringa tēze]]
 - Noraidošais stāvoklis $q_\text{rej}$, izdod atbildi $0$
 - Pirms vārda viens tukšums
 - Pēc vārda bezgalīga virkne ar tukšām šūnām
+Tukša šūna šajā gadījumā būtu vēl viens simbols alfabētā $\Sigma$
 
 No [[2025-02-04#Tjūringa mašīna]]
 # U
