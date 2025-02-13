@@ -4,6 +4,25 @@
 
 # B
 
+## Bāze
+
+Mērījumu sistēma kā interpretēt kvantu stāvokli
+Pamata sistēma ir $\ket{0}$, $\ket{1}$
+
+Arbitrārai bāzei $\ket{\psi_1}$, $\ket{\psi_2}$
+
+
+$$\ket{\psi_1}=a\ket{0}+b\ket{1}$$
+$$\ket{\psi_2}=c\ket{0}+d\ket{1}$$
+Ar ierobežojumiem
+$$|a|^2+|b|^2=1$$
+$$|c|^2+|d|^2 = 1$$
+Stāvokļiem jābūt perpendikulāriem.
+
+No [[2025-02-13#Manipulācijas]]
+
+
+
 # C
 
 # Č
@@ -38,14 +57,18 @@ Meklēšanas algoritms kvadrātiski ātrāk nekā tradicionāliem datoriem. $N$ 
 
 kvantu bits, eksistē superpozīcijā starp $\ket{0}$ un $\ket{1}$
 Precīzāk, kubita vērtība ir $\alpha\ket{0} + \beta\ket{1}$, kur $\alpha, \beta \in \mathbb{C}, |\alpha|^2 + |\beta|^2 = 1$
+kubita vērtība ir [[#Kvantu stāvoklis]]
+## Kvantu dators
+
+[[#Kubits|Kubitu]] reģistrs, kas ļauj mērīt, mainīt, manipulēt tos.
 
 ## Kvantu sapinums
 
 Divas daļiņas, kuras ir "sapītas" spēj ietekmēt cita citu
 
-## Kvantu dators
+## Kvantu stāvoklis
 
-[[#Kubits|Kubitu]] reģistrs, kas ļauj mērīt, mainīt, manipulēt tos.
+$$\alpha\ket{0}+\beta\ket{1}$$$$|\alpha|^2+|\beta|^2=1$$$$\alpha, \beta \in \mathbb{C}$$
 
 # Ķ
 

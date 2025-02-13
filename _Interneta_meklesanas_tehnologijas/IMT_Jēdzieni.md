@@ -38,10 +38,39 @@ From [[2025-02-07#Classic Information retrieval]]
 ## Cosine similarity
 This is the cosine similarity of a query and a document.
 $$
-\textit{sim}\left(q,d\right)
+\textit{sim}\left(q,d\right) =
 \cos \alpha = 
 \frac{q\cdot d}{|q| \cdot |d|} = 
 \frac{\sum_{i=1}^{n}{q_i\cdot d_i}}{\sqrt{\sum^{n}_{i=1}{q_i^2}} \cdot \sqrt{\sum^{n}_{i=1}{d_i^2}}}$$
+
+- $q$ is the query
+- $d$ is the document to compare against
+- $q_i$ is the query parameter for the $i$-th term.
+- $d_i$ is the document parameter for the the $i$-th term.
+
+The parameter can be one of various things:
+- [[#Term weights]]
+- [[#Term frequency]]
+- Binary $0$ or $1$ (does the term appear)
+
+
+When comparing different similarities with the same query, $\left|q\right|$ becomes essentially a constant multiplier. 
+
+If similarity is not required to be in $\left[-1;1\right]$ bounds and comparison is made against the same query, a simplified formula can also be used
+
+$$
+\textit{sim}_{\textit{simplified}}\left(q,d\right) = 
+\frac{q\cdot d}{|d|} = 
+\frac{\sum_{i=1}^{n}{q_i\cdot d_i}}{\sqrt{\sum^{n}_{i=1}{d_i^2}}}
+$$
+
+A slight variation used in one of the homework assignments:
+$$
+\textit{sim}\left(q,d\right) = 
+\frac{\sum_{i=1}^{n}{q_i\cdot d_i}}{N_d}
+$$
+
+Here, $N_d$ is the word count in documents.
 
 From [[2025-02-07#Vector space model]]
 ## Crawler
@@ -284,6 +313,10 @@ From [[2025-02-10#Specialized links]]
 The usual recall values at which a [[#Precision-Recall curve]] is interpolated.
 The standard recall values are:
 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0
+
+## Stop-word
+
+Word that is filtered out from documents/queries before procedures like [[#Cosine similarity]] are calculated.
 
 # Š
 
