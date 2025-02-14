@@ -56,7 +56,7 @@ The parameter can be one of various things:
 
 When comparing different similarities with the same query, $\left|q\right|$ becomes essentially a constant multiplier. 
 
-If similarity is not required to be in $\left[-1;1\right]$ bounds and comparison is made against the same query, a simplified formula can also be used
+If similarity is not required to be in $\left[-1;1\right]$ bounds and comparison is made against the same query, a simplified formula could also be used
 
 $$
 \textit{sim}_{\textit{simplified}}\left(q,d\right) = 
