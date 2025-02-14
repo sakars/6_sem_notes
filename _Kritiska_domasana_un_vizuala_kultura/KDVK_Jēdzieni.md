@@ -1,5 +1,16 @@
 # A
 
+## Arguments
+
+[[#Premise|Premises]] un [[#Secinājums|secinājuma]] kombinācija, sastāv no [[#Spriedums|spriedumiem]]
+
+Sokrats ir cilvēks, visi cilvēki ir mirstīgi, tātad Sokrats ir mirstīgs.
+
+Te ir 2 premises: "Sokrats ir cilvēks", "Visi cilvēki ir mirstīgi"
+Secinājums: "Sokrats ir mirstīgs"
+
+Visi 3 ir spriedumi
+
 # Ā
 
 # B
@@ -85,6 +96,14 @@ No [[2025-02-06#Kritiskā domāšana]]
 
 # P
 
+## Premise
+
+Pamatojums [[#Secinājums|secinājumam]]
+
+Kopā ar secinājumu veido [[#Arguments|argumentu]]
+
+sastādīta no [[#Spriedums|spriedumiem]]
+
 # Q
 
 # R
@@ -102,11 +121,21 @@ No [[2025-02-06#Retorika]]
 
 # S
 
+## Secinājums
+
+Apgalvojums, kuru balsta [[#Premise|premise]]
+
+Sastāv no [[#Spriedums|spriedumiem]]
+
 ## Semiotika
 
 Mācība par zīmēm, zīmju uztveri.
 
 No [[2025-02-06#KDVK]]
+
+## Spriedums
+
+Teksts, kuram iespējams piešķirt patiesumvērtību (Patiess vai Aplams)
 
 # Š
 
