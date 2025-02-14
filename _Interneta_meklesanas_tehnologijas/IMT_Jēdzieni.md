@@ -218,6 +218,23 @@ From [[2025-02-07#Semantic web, Social web, Open data]]
 
 A method to rank different webpages in a way that doesn't harm them, when webpages have a lot of outgoing links. Only incoming links are relevant.
 
+The formula:
+
+$$
+\mathit{PR}(A) = 
+(1-d) + d \left(
+\frac{\mathit{PR(T_1)}}{C(T_1)} + 
+\frac{\mathit{PR(T_2)}}{C(T_2)} + 
+... +
+\frac{\mathit{PR(T_n)}}{C(T_n)}
+\right)
+$$
+$A$ - Document we want the page rank of
+$d$ - Probability that the person will click on the link. Usually $0.85$
+$T_n$ - $n$-th document that links to $A$ 
+$PR(X)$ - Page rank of document $X$
+$C(X)$ - amount of outbound links going out of document $X$
+
 No [[2025-02-07#IR pamati]], [[2025-02-07#Link analysis]]
 
 ## Polite crawler
