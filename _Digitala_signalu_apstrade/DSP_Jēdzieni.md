@@ -84,6 +84,12 @@ No [[2025-02-12#Kvadrātiskā kļūda (variance)]]
 # Ļ
 
 # M
+
+## Marzano taksonomija
+
+Sarežģīta taksonomija, not worth čakarēties. Skatīt slaidus
+
+No [[2025-02-19#Izglītības mērķu taksonomijas]]
 ## Mean
 ![[#Vidējais]]
 

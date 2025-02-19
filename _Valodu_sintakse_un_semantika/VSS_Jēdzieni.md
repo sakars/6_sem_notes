@@ -16,6 +16,26 @@ Skatīt [[#Semantika]]
 
 # B
 
+## Bezkonteksta gramatika
+
+Veids, kā ar termināliem simboliem, netermināliem simboliem, produkcijas likumiem un sākuma neterminālo simbolu definē "valodu", kurai pieder konkrēti vārdi
+
+Piemēram
+
+$S\rightarrow AB$
+$A\rightarrow aAb$
+$A\rightarrow \epsilon$
+$B \rightarrow bBc$
+$B\rightarrow \epsilon$
+
+
+
+## BNF (Bakusa-Naura Forma)
+
+Gramatikas pieraksts balstīts uz termināļiem un netermināļiem
+
+Skatīt arī [[#EBNF (Extended Backus-Naur Form)]]
+
 # C
 
 # Č
@@ -28,11 +48,24 @@ Saista programmas sākuma un beigu stāvokļus.
 Skatīt [[#Semantika]]
 # E
 
+## EBNF (Extended Backus-Naur Form)
+
+Paplašināta versija [[#BNF (Bakusa-Naura Forma)]].
+
+Ļauj izmantot: 
+- | - Vai simbolu var izmantot jebkurā vietā, ne tikai augšējā līmenī
+- \[] - Neobligāta izteiksmes daļa
+- {} - izteiksmes daļa kas var atkārtoties N reizes ($0\le N$)
+
 # Ē
 
 # F
 
 # G
+
+## Gramatika
+![[#Bezkonteksta gramatika]]
+
 
 # Ģ
 
@@ -46,6 +79,12 @@ Skatīt [[#Semantika]]
 
 # K
 
+## Konkrētā sintakse
+
+Programmatūras struktūra + pieraksta likumi
+Tipiska konkrētas sintakses uzdošanas metode izmanto gramatikas t.s. [[#BNF (Bakusa-Naura Forma)]], [[#EBNF (Extended Backus-Naur Form)]]
+
+No [[2025-02-18#Reminder]]
 # Ķ
 
 # L
