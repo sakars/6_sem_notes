@@ -35,6 +35,12 @@ CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Ap
 
 From [[2025-02-07#Classic Information retrieval]]
 
+## Click-through rate (CTR)
+
+CTR is **the number of clicks that your ad receives divided by the number of times your ad is shown**: clicks ÷ impressions = CTR
+
+From [[2025-02-21#Google rich snippets]]
+
 ## Cosine similarity
 This is the cosine similarity of a query and a document.
 $$
@@ -282,6 +288,14 @@ See also [[#Implicit Relevance Feedback]], [[#Explicit relevance feedback]]
 
 From [[2025-02-07#Relevance feedback]]
 
+## Rich snippets
+
+Extra info that some webpages can mark for appearing in search results
+
+![[Pasted image 20250221105829.png]]
+
+From [[2025-02-21#Google rich snippets]]
+
 ## Robots Exclusion Protocol
 ![[#Robots.txt]]
 
@@ -293,6 +307,14 @@ From [[2025-02-10#Robots exclusion protocol]]
 
 # S
 
+## Schema.org
+
+A standardized vocabulary created by the most popular search engines. Contains over 1000 categories with which you can organize data for a [[#Crawler]] to display items like [[#Google]] rich snippets.
+
+Site: [Schema.org - Schema.org](https://schema.org/)
+
+From [[2025-02-21#Schema.org]]
+ 
 ## Search Engine Optimization (SEO)
 
 Algorithms for improving the results.
@@ -378,13 +400,18 @@ A search model that uses [[#Document Vector|Document vectors]] to get the simila
 
 # W
 
+## Webmaster
+
+A mostly outdated term for a person who manages and optimizes a webpage. 
+They usually focus on [[#Search Engine Optimization (SEO)]], [[#Semantic tagging]] and other topics to make sure the webpage is run smoothly and is accessible.
+
 ## Word Proximity
 
 An extra operator that can be introduced in a [[#Boolean retrieval model]] that can look at distance of words in the original text.
 
 This does mean that the model needs the original text, not just a [[#Bag of words]].
 
-From [[2025-02-07#bool]]
+From [[2025-02-07#Boolean retrieval model]]
 # X
 
 # Y
