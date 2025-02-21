@@ -187,6 +187,10 @@ Data used to describe other data
 
 For example, keywords, titles of books, release date. 
 
+## Microdata
+
+![[#Structured data]]
+
 # N
 
 ## Natural Language Processing (NLP)
@@ -314,10 +318,15 @@ A standardized vocabulary created by the most popular search engines. Contains o
 Site: [Schema.org - Schema.org](https://schema.org/)
 
 From [[2025-02-21#Schema.org]]
- 
+
+## Search engine
+
+A program that has indexed the web, connecting and allowing to find webpages, making the web more transparent.
+
+
 ## Search Engine Optimization (SEO)
 
-Algorithms for improving the results.
+Algorithms for improving the results of a [[#Search engine]]
 
 ## Semantic tagging
 
@@ -356,6 +365,14 @@ The standard recall values are:
 ## Stop-word
 
 Word that is filtered out from documents/queries before procedures like [[#Cosine similarity]] are calculated.
+
+## Structured data
+
+Also sometimes called [[#Microdata]], it describes additional information that html pages can add to create extra information for web [[#Crawler|crawlers]] and [[#Search engine|search engines]].
+
+Can be used to create, for example [[#Rich snippets]]
+
+From [[2025-02-21#IMT]]
 
 # Š
 
