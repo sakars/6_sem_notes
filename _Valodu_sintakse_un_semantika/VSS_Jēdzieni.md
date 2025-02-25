@@ -12,6 +12,16 @@ No [[2025-02-04#Abstraktā sintakse]]
 Semantika ar noteiktām sākuma un beigu stāvokļu īpašībām
 
 Skatīt [[#Semantika]]
+
+## Augšupejoša analīze
+
+LR(0), LR(1), LR(k), GLR
+
+Lasa ieejas tekstu un katru simbolu vai nu ieliek tekstā vēlākai apstrādei, vai arī šim simbolam kopā ar stekā jau ievietotiem simboliem pielieto kādu no likumiem "pretējā virzienā"
+
+No [[2025-02-25#VSS]]
+Skat. [[#Lejupejoša analīze]]
+[LR parser - Wikipedia](https://en.wikipedia.org/wiki/LR_parser)
 # Ā
 
 # B
@@ -89,6 +99,27 @@ No [[2025-02-18#Reminder]]
 
 # L
 
+## Lejupejoša analīze
+
+LL(0), LL(1), LL(k), LL(\*)
+
+- Automātā (stekā) ieliek gramatikas sākuma simbolu
+- Katrā solī aplūko steka sākuma simbolu un teksta sākuma fragmentu
+- Meklē ar kādu likumu jāizvērš steka pirmais simbols, ja teksta sākums ir tāds kāds dotais
+- Nomaina steka pirmo simbolu ar atrastā likuma labās puses simbolu virkni
+
+
+
+No [[2025-02-25#VSS]]
+Skat. [[#Augšupejoša analīze]]
+[LL parser - Wikipedia](https://en.wikipedia.org/wiki/LL_parser)
+
+## Leksēma
+
+Leksiskās analīzes vienums (token)
+To parasti veido regulārā izteiksme.
+
+No [[2025-02-25#VSS]]
 # Ļ
 
 # M
