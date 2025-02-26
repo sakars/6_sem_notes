@@ -10,6 +10,12 @@
 
 # D
 
+## Dekompozīcija
+
+[[#Signāls|Signāla]] sadalīšana vairākos signālos.
+
+No [[2025-02-26#Sintēze un dekompozīcija]]
+
 ## Digitāla sistēma
 
 Programmatūra, kas veic digitālu signālu apstrādi.
@@ -34,6 +40,11 @@ No [[2025-02-05#DSP]]
 
 # F
 
+## Furjē dekompozīcija
+
+[[#Dekompozīcija]], kas sadala [[#Signāls|signālu]] individuālās frekvencēs.
+
+No [[2025-02-26#Sintēze un dekompozīcija]]
 ## Furjē transformācija
 
 Matemātiska transformācija līknei.
@@ -57,7 +68,26 @@ Grafiks, kurā atspoguļots gadījumu biežums konkrētam parametram
 [Histogram - Wikipedia](https://en.wikipedia.org/wiki/Histogram)
 
 No [[2025-02-12]]
+
+
+## Homogenitāte
+
+Princips, kuram jāseko sistēmai, lai tā būtu [[#Lineāras sistēmas|lineāra sistēma]]
+
+$$
+\begin{matrix}
+x_1[t] \xrightarrow{s} y_1[t]\\
+k \cdot x_1[t] \xrightarrow{s} k \cdot y_1[t]
+\end{matrix}
+$$
+
+Vienkāršā valodā pastiprinot sistēmas ieejas signālu, pastiprināsies.
+
 # I
+
+## Impulsa dekompozīcija
+
+[[#Dekompozīcija]], kura diskrētam [[DSP_Jēdzieni#Signāls|signālam]] paņem katru individuālo vērtību kā atsevišķu signālu.
 
 ## Inversā Furjē transformācija
 
@@ -71,6 +101,18 @@ Skatīt [[#Furjē transformācija]]
 
 # K
 
+## Komutatīva sistēma
+
+2 [[#Lineāras sistēmas]] $A$ un $B$ ir komutatīvas, ja 
+
+$$
+x[t] \xrightarrow{A} i[t] \xrightarrow{B} y[t] 
+\Leftrightarrow 
+x[t] \xrightarrow{B} j[t] \xrightarrow{A} y[t]
+$$
+
+jeb sistēmas var pielietot mainītā secībā un izejas [[#Signāls]] nemainīsies.
+
 ## Kvadrātiskā kļūda
 Angl. [[#Variance]]
 
@@ -81,6 +123,29 @@ No [[2025-02-12#Kvadrātiskā kļūda (variance)]]
 
 # L
 
+## Laika invariantas sistēmas
+
+Sistēma, kurai nav svarīgs šī brīža laiks - tā strādā neatkarīgi no laika vērtības.
+
+Laika invariantai sistēmai jāizpildās
+
+$$
+x[n+n_0] \rightarrow y[n+n_0]
+$$
+
+Ne visas [[#Lineāras sistēmas]] ir laika invariantas sistēmas.
+
+No [[2025-02-26#Lineāras sistēmas]]
+
+## Lineāras sistēmas
+
+Sistēma, kura viena veida [[#Signāls|signālu]] pārveido citā.
+Lineāras sistēmas seko [[#Superpozīcija|superpozīcijas principam]] un [[#Homogenitāte|homogenitātes principam]].
+
+Ja signālu apstrādā lineāra sistēma, to iespējams sadalīt mazākos signālos un apstrādāt tos, vai savienot vairākus signālus kopā pirms laist caur sistēmai.
+
+
+No [[2025-02-26#Lineāras sistēmas]]
 # Ļ
 
 # M
@@ -126,6 +191,30 @@ Nepārtraukta līkne, kas apzīmē relatīvo varbūtību, cik bieži dati notiks
 
 # S
 
+## Signāls
+
+Viena parametra izmaiņas pret citiem.
+
+No [[2025-02-26#Lineāras sistēmas]]
+
+## Sintēze
+
+Vairāku [[#Signāls|signālu]] apvienošana vienā.
+
+No [[2025-02-26#Sintēze un dekompozīcija]]
+## Superpozīcija
+
+Vienotas [[#Lineāras sistēmas]] raksturīpašība, kas nozīmē, ka dažādu faktoru individuālā izmaiņas summa ir vienāda ar kopējo izmaiņu.
+
+$$
+\begin{matrix}
+x_1[t]\xrightarrow{s} y_1[t]\\
+x_2[t]\xrightarrow{s} y_2[t]\\
+x_1[t]+x_2[t] \xrightarrow{s} y_1[t]+y_2[t]
+\end{matrix}
+$$
+
+No [[2025-02-26#Lineāras sistēmas]]
 # Š
 
 # T
@@ -152,6 +241,21 @@ Angl. [[#Mean absolute deviation]]
 $$\mathit{MAD}=\frac{\sum^{N}_{i=0}{\left|x_i-\mu\right|}}{N}$$
 
 No [[2025-02-12#Vidējā novirze (Mean absolute deviation)]]
+
+## Vienības signāls
+
+Signāls, kura amplitūda ir 0 visā diapazonā, izņemot $(1,1)$
+
+$$
+y=\left\{
+\begin{matrix}
+0, x \ne 1 \\
+1, x =1
+\end{matrix}
+\right.
+$$
+
+
 # W
 
 # X
