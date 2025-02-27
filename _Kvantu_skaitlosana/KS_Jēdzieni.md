@@ -101,7 +101,7 @@ kubita vērtība ir [[#Kvantu stāvoklis]]
 
 ## Kvantu sapinums
 
-Divas daļiņas, kuras ir "sapītas" spēj ietekmēt cita citu
+Divas daļiņas, kuras ir "sapītas" spēj ietekmēt cita citu.
 
 ## Kvantu stāvoklis
 
@@ -109,6 +109,9 @@ $$\alpha\ket{0}+\beta\ket{1}$$$$|\alpha|^2+|\beta|^2=1$$$$\alpha, \beta \in \mat
 
 Sastāv no 2 perpendikulāriem [[#Bāzes stāvoklis|bāzes stāvokļiem]]
 
+Vairāku [[#Kubits|kubitu]] kvantu stāvoklis pierakstāms daudzos veidos
+
+$\ket{010} = \ket{0}\ket{1}\ket{0} = \ket{0}\otimes\ket{1}\otimes\ket{0}$
 
 # Ķ
 
@@ -134,18 +137,69 @@ Lineāra transformācija, kuras rezultātā nemainās garums ir [[#Unitāra tran
 
 # N
 
+## Normalizēts kvantu stāvoklis
+
+Arbitrāram kvantu stāvoklim, var mērīt 1 bitu. Mērot vienu bitu, iespējams izteikt kvantu stāvokli kā
+
+$$
+\begin{matrix}
+a\ket{00} + b\ket{01} + c\ket{10} + d\ket{11} =\\=
+
+\sqrt{|a|^2+|b|^2}\ket{0} \otimes \left(\frac{a\ket{0}+b\ket{1}}{\sqrt{|a|^2+|b|^2}}\right) + 
+\sqrt{|c|^2+|d|^2}\ket{0} \otimes \left(\frac{c\ket{0}+d\ket{1}}{\sqrt{|c|^2+|d|^2}}\right)
+\end{matrix}
+$$
+
+Mērot 1. bitu, iespēja nomērīt $0$ ir $\sqrt{|a|^2+|b|^2}$ un nomērīt $1$ ir $\sqrt{|c|^2+|d|^2}$
+
+Ja nomērītais ir $0$, kvantu stāvoklis kļūst par
+$$
+\frac{a}{\sqrt{|a|^2+|b|^2}}\ket{00} + \frac{b}{\sqrt{|a|^2+|b|^2}}\ket{01}
+$$
+
+Ja nomērītais ir 1, kvantu stāvoklis kļūst par 
+
+$$
+\frac{c}{\sqrt{|c|^2+|d|^2}}\ket{10} + \frac{d}{\sqrt{|c|^2+|d|^2}}\ket{11}
+$$
+
+Šie stāvokļi ir normalizēti...?
+
 # Ņ
 
 # O
 
 # P
 
+## Pilnais mērījums
+
+Mērījums, kur vairāku [[#Kubits|kubitu]] [[#Kvantu stāvoklis|kvantu stāvokli]] nomēra abiem bitiem, nomērītajam stāvoklim dažādo stāvokļu iespējamību summa vienmēr ir $1$
+
+Valīdam $N$ kubitu stāvoklim $\sum^N_{i=1}{\alpha_i\ket{i}}$, $\sum^N_{i=1}{|\alpha_i|^2}=1$ iespēja iegūt stāvokli $\ket{i}$ ir $|\alpha_i|^2$
+
+No [[2025-02-27#Vairāki kubiti]]
 # Q
 
 ## Qubit
 ![[#Kubits]]
 
 # R
+
+## Reizinājuma stāvoklis
+
+Vairāku [[#Kubits|kubitu]] [[#Kvantu stāvoklis|kvantu stāvoklis]] ir reizinājuma stāvoklis, ja var atrast tādus 2 kubitus, kuru [[#Tensoru reizināšana|tensoru reizinājums]] rada šo stāvokli
+$$
+\begin{matrix}
+(a\ket{0} + b\ket{1}) \otimes (c\ket{0}+ d\ket{1}) \rightarrow \alpha\ket{00}+\beta\ket{01}+\gamma\ket{10}+\delta\ket{11}\\
+\alpha=ac\\
+\beta=ad\\
+\gamma=bc\\
+\delta=bd
+\end{matrix}
+$$
+
+No [[2025-02-20#2 bitu sistēma]], [[2025-02-27#Vairāki kubiti]]
+Skat. [[#Sapīts stāvoklis]]
 
 ## Rekursija
 ![[#Rekursija]]
@@ -187,6 +241,11 @@ $$
 \right)
 $$
 No [[2025-02-20#KS]]
+
+## Sapīts stāvoklis
+
+No 2 vai vairāk [[#Kubits|kubitiem]] izsakāms [[#Kvantu stāvoklis|kvantu stāvoklis]], kuru nav iespējams izteikt kā kubitu [[#Tensoru reizināšana|tensoru reizinājumu]]. Šie kubiti nav neatkarīgi un viena vērtība mērīšanas laikā noteiks cita vērtību.
+
 # Š
 
 # T
@@ -194,6 +253,21 @@ No [[2025-02-20#KS]]
 ## Tensoru reizināšana
 
 $$(a\ket{0} + b\ket{1}) \otimes (c\ket{0}+ d\ket{1}) = ac\ket{00} + ad\ket{01}+ bc\ket{10}+ bd\ket{11}$$
+Ģeneralizēta formula
+
+$$
+\sum^{N}_{i=1}{\alpha_i\ket{i}} \otimes \sum^{M}_{j=1}{\beta_j\ket{j}} = \sum^{N}_{i=1}{\sum^{M}_{j=1}{\alpha_i\beta_j\ket{i}\ket{j}}}
+
+$$
+
+Piemērs:
+$$
+\begin{matrix}
+\left(\frac{1}{\sqrt{2}}\ket{00} +\frac{1}{\sqrt{2}}\ket{11} \right) \otimes\left(\frac{1}{\sqrt{2}}\ket{0}-\frac{1}{\sqrt{2}}\ket{1} \right) =
+\frac{1}{2}\ket{000} - \frac{1}{2}\ket{001} + \frac{1}{2}\ket{110} - \frac{1}{2}\ket{111}  
+\end{matrix}
+
+$$
 
 ## Transformācija
 
