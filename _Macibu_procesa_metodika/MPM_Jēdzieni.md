@@ -51,6 +51,14 @@ Process, kas ietver informācijas iegaumēšanu, glabāšanu, atcerēšanos un a
 No [[2025-02-19#Atmiņa]]
 Skat [[#Atkinson & Shiffrin memory model]]
 
+
+## Attieksme
+
+> 1\. Cilvēku savstarpējais izturēšanās veids saskarsmē. Attieksme var būt pozitīva, neitrāla vai negatīva, atbalstoša vai noliedzoša, vienlīdzīga vai diskriminējoša u.tml. Attieksme nosaka gan saziņas kvalitāti, gan sadarbības produktivitāti, gan psiholoģisko klimatu kopienā, piemēram, klasē, ģimenē, kolektīvā. 2. Cilvēka uzvedības, rīcības saistība ar apkārtējo pasauli. Attieksme ir uzskats par lietām, procesiem, norisēm, to vērtējums un atbilstoša nostāja, ko veido zināšanas un kas izpaužas kā spontāna reakcija uz konkrētu notikumu vai kā vērtībās, mērķos, ideālos un normās sakņota pastāvīga, noturīga tendence. Attieksmes veidošanās ir būtiska izglītības procesa daļa. 3. dsk. Savstarpēja saistība, sakarība, mijattiecības starp objektiem, parādībām, vienumiem, lielumiem, nojēgumiem u. tml.
+\- Izglītības terminu skaidrojošā tiešsaistes vārdnīca, 2023
+
+No [[2025-03-05#Zināšanas, prasmes, attieksme, kompetence kategoriju analīze]]
+
 ## Audiālais mācīšanās stils
 
 Mācās caur dzirdi
@@ -112,6 +120,64 @@ Pamatā zināšanas, tad sapratne, pielietojums, analīze, sintēze, izvērtēš
 ![[#Andersona taksonomija]]
 
 # C
+
+## Caurviju prasmes
+
+Caurviju prasmes ietver nozīmīgus skolēna darbības kognitīvos, afektīvos un sociālos aspektus, kas attiecas uz visiem cilvēka darbības virzieniem. Caurviju prasmes palīdz apgūt zināšanas dažādos kontekstos un ar dažādiem domāšanas un pašvadītas mācīšanās paņēmieniem, tādējādi stiprinot jaunu zināšanu sasaisti ar personisko pieredzi. Savukārt caurviju prasmju izmantošana dažādās mācību jomās nostiprina skolēnu spējas tās izmantot patstāvīgi un visdažādākās situācijās, tostarp sarežģītās un neparedzamās.
+
+No [[2025-03-05#Zināšanas, prasmes, attieksme, kompetence kategoriju analīze]]
+### Kritiskā domāšana un problēmu risināšana 
+
+Kritiskā domāšana un problēmrisināšana ir mērķtiecīga informācijas analīze.  
+
+Skolēns rūpīgi un mērķtiecīgi izzina, analizē un izvērtē dažāda veida informāciju un situācijas, izprot to kontekstu; pieņem izsvērtus lēmumus, uzņemas par tiem atbildību; rīkojas, lai risinājumus problēmām izstrādātu un ieviestu; kompleksās situācijās lieto efektīvas problēmrisināšanas stratēģijas, un izvērtē savu sniegumu, pieņemot atbildīgus lēmumus, kas nozīmīgi īstermiņā un ilgtermiņā. 
+
+Pirmsskolā šīs prasmes apgūst, vērojot, pētot dabas objektus/parādības, identificējot un nosaucot dažādas sakarības, apzinoties darbību secību, cēloņus un sekas, izvērtējot redzētā un dzirdētā ticamību, kā arī risinot ikdienas problēmsituācijas.
+
+### Jaunrade un uzņēmējspēja 
+
+Jaunrade ir process, kurā rodas jaunas idejas, kas ir noderīgas cilvēkam vai cilvēku grupai, bet uzņēmējspēja ļauj šīs idejas īstenot praksē, sasniedzot savus un sabiedrības mērķus. 
+
+Skolēns meklē un saskata daudzveidīgas iespējas uzlabot dzīves kvalitāti sev un citiem. Ar drosmi un interesi izmanto iztēli, lai radītu oriģinālus, vērtīgus un noderīgus produktus un risinājumus. Uzņemas iniciatīvu un procesa vadību, lai tos mērķtiecīgi attīstītu dzīvotspējīgā piedāvājumā. 
+
+Pirmskolā bērns, kura iniciatīvu, vēlēšanos eksperimentēt un meklēt atbildes uz paša jautājumiem atbalsta skolotājs, gūst pārliecību par savām spējām, ir gatavs apgūt ko jaunu, radīt idejas un tās īstenot. 
+
+Rotaļājoties un eksperimentējot ar ierastām darbībām un priekšmetiem, bērns rada dažādas iepriekš nepieredzētas lietu kombinācijas, stiprina vēlmi apgūt jaunas zināšanas un prasmes, kā arī veido ieradumu izrādīt iniciatīvu un paveikt iesākto līdz galam.
+
+### Pašvadīta mācīšanās 
+
+Pašvadīta mācīšanās ir apzināta spriešana, reflektēšana par savām mācīšanās darbībām un spēja vadīt savu mācīšanos jebkādā dzīves situācijā, kontekstā.  
+
+Skolēns apzinās sevi kā indivīdu, savas vēlmes, vajadzības un intereses; spēj pārvaldīt savas emocijas, domas un uzvedību, spēj izvirzīt reālus mērķus, pieņemt atbildīgus lēmumus; prot un ir motivēts pastāvīgi un patstāvīgi mācīties un pilnveidot sevi; saprot un seko līdzi savam mācīšanās procesam, izvērtē savus mācību sasniegumus, apzinās efektīvākos mācīšanās paņēmienus, plāno mācīšanās procesu un uzņemas atbildību par to. Skolēns attīsta spēju sadzīvot ar neskaidrību un neviennozīmīgām situācijām. 
+
+Pašvadītas mācīšanās prasmes ir svarīgas, jo tās attīsta skolēnā lielāku vēlmi un motivāciju mācīties, palīdz nostiprināt zināšanas, rosina darboties mērķtiecīgi un rezultatīvi. Skolēns apzinās savas stiprās un vājās puses un to, ka kļūdas ir mācīšanās procesa neatņemama sastāvdaļa, kas ļauj saprast, ko nākamajā darīšanas reizē var veikt citādāk. 
+
+Pirmsskolā prasmi vadīt savu mācīšanos bērni apgūst, mācoties ievērot dažādus noteikumus, atpazīstot un regulējot savas emocijas, pārvaldot savu uzvedību, piemēram, sagaidot savu kārtu vai mācoties sadzīvot ar zaudējumu spēlē. Pašvadītas mācīšanās prasmes apgūst, vēršot uzmanību uz konkrētu darbību, mācoties plānot savas darbības soļus noteiktā secībā un pabeidzot iesākto. Neatņemama pašvadītas mācīšanās prasme ir spēt sevi novērtēt, pastāstot par padarīto un par to, ko varēja darīt citādāk.
+
+### Sadarbība 
+
+Sadarbība ir iespēja apzināti mācīties citam no cita, samazināt darbam nepieciešamo laiku, rodot radošus risinājumus problēmām un gandarījumu par kopā paveikto.  
+
+Skolēns dažādās dzīves situācijās un atšķirīgās sabiedrības grupās izmanto sadarbību kā efektīvu veidu kopīga mērķa sasniegšanai. Apzinās, kā paša emocijas, uzskati un vērtības ietekmē attiecības ar citiem cilvēkiem, veiksmīgi sazinās, saprotas, veido pozitīvas attiecības, mērķtiecīgi strādā neviendabīgās grupās, vienojas strīdīgos jautājumos un saskaņo rīcību, iecietīgi un ar cieņu izturas pret atšķirīgiem uzskatiem, cilvēku daudzveidību uzskata par vērtību. 
+
+Pirmsskolā sadarbības prasmes attīstīta, sākumā veicot dažādus uzdevumus kopā ar pieaugušo. Laika gaitā tiek par ieradumu veidoti cieņpilnu attiecību veidošanā nepieciešamo iemaņu un vārdu krājuma lietošana. Pieaugot bērns mācās tikt galā ar mācību un sadzīviskām situācijām kopā ar vienaudžiem.
+
+### Pilsoniskā līdzdalība 
+
+Skolēns veido aktīvu dzīves pozīciju un nostiprina savu pārliecību par katra indivīda iespējām ietekmēt un izmainīt vidi un situāciju, kurā atrodas, sabiedrības un vides ilgtspēju saista ar indivīda ikdienas rīcību, saskata to gan lokālā, gan globālā mērogā, empātiski izzina daudzveidīgus uzskatus, rīkojas solidāri un atbildīgi, sarunu ceļā meklē un kopā ar citiem īsteno risinājumus pretrunīgām situācijām 
+
+Pirmsskolā bērni mācās būt atbildīgi par sevi, līdzcilvēkiem un apkārtni. Nākotnē viņi veidos kopienu, kurā iespējams justies droši un līdzvērtīgi ar citiem, ietekmēt notiekošo, viņi nepaies garām situācijām, kas šķiet nepieņemamas. Pirmsskolas ikdienā pilsoniskās līdzdalības prasmes sāk apgūt, veidojot un ievērojot noteikumus grupā, mācoties saprast citus, līdzpārdzīvojot notiekošajam un rīkojoties videi draudzīgi. Tādējādi bērni sāk apzināti uzņemties atbildību un rīkoties.
+
+### Digitālās prasmes 
+
+Digitālās prasmes ir prasmes, kuras palīdz efektīvi, gudri un atbildīgi lietot digitālās tehnoloģijas. 
+
+Skolēns atbildīgi izmanto digitālās tehnoloģijas ikdienā, lai zināšanas iegūtu, izmantotu un radītu, kā arī risinātu uzdevumus un problēmas, koplietotu un izmantotu savu un citu radītu saturu, prasmīgi pārvalda savu digitālo identitāti, efektīvi un droši komunicē un sadarbojas ar citiem digitālajā vidē; kritiski un konstruktīvi izvērtē tehnoloģiju un mediju lomu sabiedrībā. 
+
+Pirmsskolā ir būtiski mācīties izšķirt virtuālo pasauli no reālās, saprast digitālo tehnoloģiju lomu, mācīties ievērot digitālo ierīču lietošanas nosacījumus. 
+
+Digitālās ierīces un tehnoloģijas ir kļuvušas par mūsdienu cilvēku neatņemamu mācību, darba un izklaides daļu. Lielākā daļa bērnu zina, kas ir telefons, fotokamera, televizors, dators – šīs ierīces ģimenē lieto ikdienā. Pirmsskolā ir būtiski dažādās tehnoloģijas izmantot jēgpilni, papildinot mācīšanas un mācīšanās iespējas.
+
 
 ## Cone of learning (Edgar Dale)
 
@@ -249,6 +315,45 @@ Atbild uz jautājumiem *Ko?* un *Kas?*
 Skat. arī [[MPM_Jēdzieni#Metakognīcija]]
 No [[2025-02-19#Kognitīvie procesi]]
 
+## Kolba cikls
+
+
+```mermaid
+block-beta
+	columns 3
+	P["Konkrētā pieredze"] space
+	NR["Novērojumi un refleksija"]
+	space:3
+	I["Izmēģināšana dzīvē"] space
+	V["Vispārināšana un abstrahēšana"] 
+	P --> NR
+	NR --> V
+	V --> I
+	I --> P
+```
+
+
+[Kolb's experiential learning - Wikipedia](https://en.wikipedia.org/wiki/Kolb%27s_experiential_learning)
+
+No [[2025-03-05#Pieredzes mācīšanās cikls]]
+## Kompetence
+Arī [[#Lietpratība]]
+
+Sastāv no [[#Zināšanas|zināšanām]], [[#Prasmes|prasmēm]], [[#Attieksme|attieksmes]]
+
+> Formālās,neformālāsun ikdienas izglītībasrezultāts. Kompetenci veido apgūto zināšanu, prasmju un attieksmes kopums, kas nodrošina indivīda spēju izvēlēties situācijai vai darbībai atbilstošākos līdzekļus, lai adekvāti rīkotos. Mūsdienu izglītībā nošķir un raksturo dažāda veida kompetences: sociālo kompetenci, sociāli emocionālo kompetenci, sociāli komunikatīvo kompetenci, sociokultūras kompetenci, starpkultūru kompetenci, pilsonisko kompetenci, ekoloģisko kompetenci, svešvalodas kompetenci, lingvistisko kompetenci, vizuālo kompetence u. c.
+\- Izglītības terminu skaidrojošā tiešsaistes vārdnīca, 2023
+
+No [[2025-03-05#Zināšanas, prasmes, attieksme, kompetence kategoriju analīze]]
+
+## Kompetenču pieeja
+
+Integrētas izglītības programmas īstenošana, paredzot [[#Zināšanas|zināšanu]] un [[#Prasmes|prasmju]] vienlaicīgu vai secīgu apguvi un vērtēšanu arī dažādos mācību priekšmetos.
+
+Skat. [[#Kompetence]]
+
+No [[2025-03-05#Kompetenču pieeja]]
+
 ## Konstrukcionisms
 
 Pamatidejā tas, ka mācīšanās procesam jānodrošina aktīva darbošanās, kas veido taustāmu rezultātu, ne tikai shēmu galvā.
@@ -261,11 +366,17 @@ Dalās sīkāk Kognitīvajā, sociālā un apvienotā konstruktīvismā.
 
 No [[2025-02-26#Konstruktīvisms]]
 
+## Kritiskais konstruktīvisms
+
+[[#Konstruktīvisms]], kas paplašina idejas, iekļaujot socio-kulturālo un politisko kontekstu, kas var mainīt to, kā faktus un pieredzes interpretē.
 
 
 # Ķ
 
 # L
+
+## Lietpratība
+![[#Kompetence]]
 
 # Ļ
 
@@ -363,6 +474,16 @@ Fokusējas uz:
 
 No [[2025-02-26#Konstruktīvisms]]
 
+
+## Prasmes
+
+> Māka apzināti veikt praktisku vai kognitīvu darbību atbilstīgi izvirzītajiem kritērijiem– kvalitātei, apjomam u.tml.–, pamatojoties uz attiecīgajām zināšanām. Prasme veidojas daudzveidīgās, atkārtotās darbībās. Mācību procesā tiek apgūtas katram mācību priekšmetam specifiskās prasmes, piemēram, bioloģijā– prasme pagatavot mikropreparātu vai ģeogrāfijā– prasme noteikt vietas vai objekta ģeogrāfiskās koordinātas. No specifiskām prasmēm ir nošķiramas caurviju prasmes, kas attiecas uz visām mācību jomām un, kuras apgūstot, tiek nodrošināta indivīda prasme darboties dažādos kognitīvos, sociālos un emocionālos aspektos.
+\- Izglītības terminu skaidrojošā tiešsaistes vārdnīca, 2023
+
+Skat. arī [[#Caurviju prasmes]]
+
+No [[2025-03-05#Zināšanas, prasmes, attieksme, kompetence kategoriju analīze]]
+
 ## Procedurālā atmiņa
 
 Pretēja [[#Deklaratīvā atmiņa]]
@@ -374,6 +495,14 @@ No [[2025-02-19#Atmiņa]]
 # R
 
 # S
+
+## Sasniedzamais rezultāts
+
+Rezultāts, kuru jāsasniedz programmas vai mācību stundas beigās.
+
+Piemērs, kā ir Skola2030: https://skola2030.lv/lv/macibu-saturs/merki-skolenam/sasniedzamie-rezultati
+
+
 
 ## Secīgais mācīšanās stils
 
@@ -492,5 +621,12 @@ Skat. [[#Mācīšanās stils]]
 # Y
 
 # Z
+
+## Zināšanas
+
+> Noteiktu faktu, jēdzienu, ideju un teoriju sistematizēts kopums un izpratne par to savstarpējo saistību, kas veidojusies izziņas procesā, mācoties un iegūstot pieredzi izglītības iestādē, darbā, pētniecībā u. c. dzīves situācijās, piemēram, ģimenē, draugu vai biedru vidū. Zināšanas raksturo pamatotība, patiesums un ticamība. Zināšanas var klasificēt pēc to izmantojuma: akadēmiskās, profesionālās, personiski nepieciešamās zināšanas u. tml.; pēc jomas: zināšanas humanitāro un sociālo zinātņu jomā, dabaszinātņu jomā u. tml.; pēc līmeņa: pamatzināšanu līmenis kādā jomā, zināšanas profesionālajā līmenī, zināšanas eksperta līmenī.
+\- Izglītības terminu skaidrojošā vārdnīca, 2023
+
+No [[2025-03-05#Zināšanas, prasmes, attieksme, kompetence kategoriju analīze]]
 
 # Ž
