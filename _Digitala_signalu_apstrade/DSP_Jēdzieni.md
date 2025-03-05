@@ -16,6 +16,23 @@
 
 No [[2025-02-26#Sintēze un dekompozīcija]]
 
+## Delta funkcija
+
+Arī Dirac delta function.
+
+funkcija, kurai vērtība ir 
+$$
+y[i]\left\{
+\begin{matrix}
+0, i\ne 0\\
+1, i=0
+\end{matrix}
+\right.
+$$
+![[Pasted image 20250305095414.png]]
+
+No [[2025-03-05#Konvolūcija]]
+
 ## Digitāla sistēma
 
 Programmatūra, kas veic digitālu signālu apstrādi.
@@ -112,6 +129,18 @@ x[t] \xrightarrow{B} j[t] \xrightarrow{A} y[t]
 $$
 
 jeb sistēmas var pielietot mainītā secībā un izejas [[#Signāls]] nemainīsies.
+
+
+## Konvolūcija
+
+Veids kā apstrādāt signālu, kur var iegūt dažādas signālu īpašības.
+
+No [[2025-03-05#Konvolūcija]]
+
+## Korelācija
+
+No [[2025-03-05#Korelācija]]
+
 
 ## Kvadrātiskā kļūda
 Angl. [[#Variance]]
