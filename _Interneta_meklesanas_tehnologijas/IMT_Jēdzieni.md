@@ -41,6 +41,19 @@ CTR is **the number of clicks that your ad receives divided by the number of ti
 
 From [[2025-02-21#Google rich snippets]]
 
+## Corpus
+
+A set of documents or texts typically all having some desired property. Like a filtered dataset
+
+One of the larger examples is [WebCorp: The Web as Corpus](https://www.webcorp.org.uk/live/) - an offline collection of a part of a 
+
+## Corpus-based QA
+
+>[!info] Here QA means Question-answering, not quality assurance
+
+A mechanism that attempts to find answers from a [[#Corpus|corpus]]
+This usually involves using [[#LLM (Large Language Model)|LLMs]] to extract the correct data.
+
 ## Cosine similarity
 This is the cosine similarity of a query and a document.
 $$
@@ -219,9 +232,16 @@ From [[2025-02-10#Specialized links]]
 # O
 
 ## Open data
-Data that is freely available on the web.
+Data that is freely available on the web to use, share, modify.
 
-From [[2025-02-07#Semantic web, Social web, Open data]]
+Some examples of open data are:
+- [OpenStreetMap](https://www.openstreetmap.org/#map=7/56.895/24.608)
+- [The official portal for European data | data.europa.eu](https://data.europa.eu/en)
+- [Latvijas Atvērto datu portāls](https://data.gov.lv/lv)
+- [awesomedata/awesome-public-datasets: A topic-centric list of HQ open datasets.](https://github.com/awesomedata/awesome-public-datasets)
+
+
+From [[2025-02-07#Semantic web, Social web, Open data]], [[2025-03-07#Open data]]
 # P
 
 ## Page Rank
@@ -336,6 +356,11 @@ For example, recognizing reviews.
 
 From [[2025-02-07#Semantic web, Social web, Open data]]
 
+
+## Semantic web
+
+An idea that information need not be located all in a single place. Multiple websites can contain information on the same subject. Using [[#Semantic tagging]] and other tools, we can tie these together, gathering clear information from multitudes of inputs.
+
 ## Sitemap
 
 A map containing all links that are accessible to crawlers/users.
@@ -344,6 +369,12 @@ It is used to "flatten" the depth of links for crawlers. This way they only need
 
 
 From [[2025-02-10#Sitemap]]
+
+## SPARQL
+
+A query language for the [[#Semantic web]].
+
+SPARQL, pronounced 'sparkle', is **the standard query language and protocol for Linked Open Data on the web or for RDF triplestores**.
 
 ## Sponsored links
 

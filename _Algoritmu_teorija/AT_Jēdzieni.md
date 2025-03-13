@@ -61,6 +61,10 @@ No [[2025-02-04#Čērča-Tjūringa tēze]]
 
 # S
 
+## Saskaitāmība
+
+2 kopas ir vienāda izmēra, ja katru vienas kopas elementu var viens pret viens saistīt ar citu elementu. Bezgalīga kopa ir saskaitāma, ja katram kopas elementam var attiecināt savu unikālu veselu skaitli.
+
 # Š
 
 # T
@@ -79,7 +83,13 @@ No [[2025-02-04#Čērča-Tjūringa tēze]]
 Tukša šūna šajā gadījumā būtu vēl viens simbols alfabētā $\Sigma$
 
 No [[2025-02-04#Tjūringa mašīna]]
+
+
 # U
+
+## Universāla tjūringa mašīna
+
+[[#Tjūringa mašīna]], kas spēj izpildīt jebkuru tjūringa mašīnu (ieskaitot sevi), kuras ievade ir formā `M#x`, kur `M` ir galīga ievade, kas apzīmē citas tjūringa mašīnas uzstādījumus (stāvokļus, ielasi, izvadi, pārejas)
 
 # Ū
 

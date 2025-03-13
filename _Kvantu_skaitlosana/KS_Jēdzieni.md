@@ -35,10 +35,72 @@ Lineāra superpozīcija, piemēram, $\ket{0}$, $\ket{1}$ no kuras konstruē [[#B
 
 
 # C
+## CNOT
+"Conditional NOT" vai "Controlled NOT"
+$$
+\left\{
+\begin{matrix}
+\ket{00} \rightarrow \ket{00}\\
+\ket{01} \rightarrow \ket{01}\\
+\ket{10} \rightarrow \ket{11}\\
+\ket{11} \rightarrow \ket{10}
+\end{matrix}
+\right.
+$$
+jeb
+$$
+\alpha\ket{00}+\beta\ket{01}+\gamma\ket{10}+\delta\ket{11} \rightarrow
+\alpha\ket{00}+\beta\ket{01}+\delta\ket{10}+\gamma\ket{11}
+$$
+
+No [[2025-03-06#2 kvantu stāvokļu mijiedarbība]]
+
+## Controlled U gate
+
+Jebkuras formas Transformācijas $U$ kontrolētais paveids, kas transformē 2. bitu ar $U$ tikai ja pirmais bits ir $1$
+
+$$
+\left\{
+\begin{matrix}
+\ket{00} \rightarrow& \ket{00}\\
+\ket{01} \rightarrow& \ket{01}\\
+\ket{10} \rightarrow& a\ket{10}+b\ket{11}\\
+\ket{11} \rightarrow& c\ket{10}+d\ket{11}
+\end{matrix}
+\right.
+$$
+No [[2025-03-06#2 kvantu stāvokļu mijiedarbība]]
+
+## Controlled Z gate
+
+Jeb "kontrolētais Z"
+$$
+\left\{
+\begin{matrix}
+\ket{00} \rightarrow \ket{00}\\
+\ket{01} \rightarrow \ket{01}\\
+\ket{10} \rightarrow \ket{10}\\
+\ket{11} \rightarrow -\ket{11}
+\end{matrix}
+\right.
+$$
 
 # Č
 
 # D
+
+## Dubultkontrolētais NOT (CCNOT)
+
+$$
+\left\{
+\begin{matrix}
+\ket{xyz} \rightarrow \ket{xyz}, x=0, y=0\\
+\ket{110} \rightarrow \ket{111}\\
+\ket{111} \rightarrow \ket{110}
+\end{matrix}
+\right.
+$$
+
 
 # E
 
@@ -269,6 +331,10 @@ $$
 
 $$
 
+## Toffoli elements
+![[#Dubultkontrolētais NOT (CCNOT)]]
+
+
 ## Transformācija
 
 Pārveido [[#Kvantu stāvoklis|kvantu stāvokli]] citā kvantu stāvoklī.
@@ -406,6 +472,12 @@ $$
 No [[2025-02-13#Transformācija]]
 
 Skatīt [[#Transformācija]]
+
+## Universitalitāte n kubitu transformācijai
+
+Jebkuru unitāru $U$ uz $n$ kubitiem var izteikt kā $U=U_{m}\cdot U_{m-1} \cdots U_1$, kur $U_x$ ir 1-kubita unitāra transformācija vai [[KS_Jēdzieni#CNOT|CNOT]]
+
+No [[2025-03-06#Universitalitāte]]
 
 # Ū
 

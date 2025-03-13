@@ -16,3 +16,6 @@ Programmēšanas prakses kvantu skaitļošanā kurss ir [[PPKS_Index]]
 # 4. lekcija
 
 ![[2025-02-27#KS]]
+
+# 5. lekcija
+![[2025-03-06#KS]]
