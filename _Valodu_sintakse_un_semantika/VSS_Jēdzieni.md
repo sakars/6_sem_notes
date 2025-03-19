@@ -54,7 +54,11 @@ Skatīt arī [[#EBNF (Extended Backus-Naur Form)]]
 
 ## Dabiskā semantika
 Saista programmas sākuma un beigu stāvokļus.
+Programmas solis ir \<komanda, stāvoklis> -> nākamais stāvoklis
 
+![[Pasted image 20250318110929.png]]
+
+Skatīt [[#Operacionālā semantika]]
 Skatīt [[#Semantika]]
 # E
 
@@ -132,6 +136,17 @@ No [[2025-02-25#VSS]]
 # Ņ
 
 # O
+
+## Operacionālā semantika
+
+Programmu uztver kā grafu, kur viena veida operācija (komanda) pāriet citā. Šis ir nedaudz atšķirīgi no [[#Dabiskā semantika|dabiskās semantikas]], kurā pārejas rezultāts ir cits stāvoklis.
+![[Pasted image 20250318110817.png]]
+
+![[Pasted image 20250318110157.png]]
+
+Skatīt [[#Dabiskā semantika]]
+Skatīt [[#Semantika]]
+
 
 # P
 

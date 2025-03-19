@@ -4,12 +4,41 @@
 
 # B
 
+## Band-pass filtrs
+
+Filtrs, kas atļauj tikai vidējās frekvences. Tos var veidot izmantojot [[#Low-pass filtrs|low-pass]] un [[#High-pass filtrs|high-pass]] filtrus.
+
 # C
 
 # Č
 
 # D
 
+
+## Decibels
+
+Mērvienība ir `dB`.
+To izsaka logaritmiskajā skalā. Tas izsaka signāla relatīvo izmaiņu.
+deci-bels = viena desmitdaļa bela.
+
+```
+-20 dB -> *0.01
+-10 dB -> *0.1
+0   dB -> *1
+10  dB -> *10
+20  dB -> *100
+```
+
+$$
+dB = 10 \log_{10}{\frac{P_1}{P_2}}
+$$
+Šeit $P$ ir jauda. $\text{Amplitūda} \sim \sqrt{\text{Jauda}}$ 
+Tātad
+$$
+dB = 20 \log_{10}{\frac{A_1}{A_2}}
+$$
+
+Tā kā decibeli ir relatīva mērvienība to izmanto salīdzinot signālus vai arī salīdzinot pret kādu atskaites signālu. Viens piemērs ir izmantot cilvēka dzirdamības slieksni kā atskaites punktu
 ## Dekompozīcija
 
 [[#Signāls|Signāla]] sadalīšana vairākos signālos.
@@ -18,7 +47,7 @@ No [[2025-02-26#Sintēze un dekompozīcija]]
 
 ## Delta funkcija
 
-Arī Dirac delta function.
+Arī Dirac delta function nepārtrauktiem signāliem vai Kronecker delta function diskrētiem signāliem.
 
 funkcija, kurai vērtība ir 
 $$
@@ -46,6 +75,19 @@ Digitālas sistēmas var:
 - Vienkāršākas: Digitālas sistēmas bieži ir vienkāršākas nekā to analogie ekvivalenti.
 
 No [[2025-02-05#DSP priekšrocības]]
+
+## Digitālais filtrs
+
+Digitālie filtri ir noderīgi, jo tiem ir ļoti daudz pielietojumu DSP
+
+Populārākie ir:
+- atdalīt signālu
+- restaurēt signālu
+
+Parasti filtri ir implementēti 2 veidos:
+- [[#Konvolūcija]] ar [[#Impulsa signāls|impulsa signālu]]
+- Rekursija
+
 ## Digitālo signālu apstrāde
 
 Digitālā signālu apstrāde ir kā pārvērst kaut kāda mēra analogus datus digitālos datos (nepilnīga definīcija)
@@ -56,6 +98,10 @@ No [[2025-02-05#DSP]]
 # Ē
 
 # F
+
+## Frekvences reakcija
+
+Signāls, kuru var iegūt pielietojot [[#Furjē transformācija|furjē transformāciju]] [[#Impulsa reakcija|impulsa reakcijai]]. Pretējā virzienā [[#Impulsa reakcija|impulsa reakciju]] var iegūt pielietojot [[#Inversā Furjē transformācija|inverso Furjē transformāciju]] frekvences reakcijai. Frekvences reakcija izsakāma [[#Decibels|decibelos]] pielietojot logaritmu frekvences reakcijai.
 
 ## Furjē dekompozīcija
 
@@ -77,6 +123,11 @@ No [[2025-02-05#Furjē transformācija]]
 # Ģ
 
 # H
+
+## High-pass filtrs
+
+Filtrs, kas dzēš zemās frekvences
+Pretējs [[#Low-pass filtrs|low-pass filtram]]
 
 ## Histogramma
 
@@ -106,6 +157,10 @@ Vienkāršā valodā pastiprinot sistēmas ieejas signālu, pastiprināsies.
 
 [[#Dekompozīcija]], kura diskrētam [[DSP_Jēdzieni#Signāls|signālam]] paņem katru individuālo vērtību kā atsevišķu signālu.
 
+## Impulsa reakcija
+
+Signāls, kuru izmanto, lai apstrādātu signālu, viens no veidiem ir [[#Konvolūcija]]. Apstrādes rezultātā iegūst jaunu izvades signālu.
+
 ## Inversā Furjē transformācija
 
 Veic pretējo darbību [[#Furjē transformācija|Furjē transformācijai]], pārvēršot frekvenču amplitūdas viļņu summas līknē.
@@ -117,6 +172,10 @@ Skatīt [[#Furjē transformācija]]
 # J
 
 # K
+
+## Kodols
+
+Alternatīvs nosaukums [[#Impulsa reakcija|Impulsa reakcijai]]
 
 ## Komutatīva sistēma
 
@@ -175,15 +234,16 @@ Ja signālu apstrādā lineāra sistēma, to iespējams sadalīt mazākos signā
 
 
 No [[2025-02-26#Lineāras sistēmas]]
+
+## Low-pass filtrs
+
+Filtrs, kas bloķē augstās frekvences.
+Pretējs [[#High-pass filtrs|high-pass filtram]]
+
 # Ļ
 
 # M
 
-## Marzano taksonomija
-
-Sarežģīta taksonomija, not worth čakarēties. Skatīt slaidus
-
-No [[2025-02-19#Izglītības mērķu taksonomijas]]
 ## Mean
 ![[#Vidējais]]
 
@@ -231,6 +291,17 @@ No [[2025-02-26#Lineāras sistēmas]]
 Vairāku [[#Signāls|signālu]] apvienošana vienā.
 
 No [[2025-02-26#Sintēze un dekompozīcija]]
+
+## Skandas
+
+Skaļrunis
+
+## Soļa reakcija
+
+Signāls, ko var iegūt, ņemot integrāli no [[#Impulsa reakcija|impulsa reakcijas]]. Pretējā virzienā, atvasinājums no soļa reakcijas ir impulsa reakcija.
+
+
+
 ## Superpozīcija
 
 Vienotas [[#Lineāras sistēmas]] raksturīpašība, kas nozīmē, ka dažādu faktoru individuālā izmaiņas summa ir vienāda ar kopējo izmaiņu.

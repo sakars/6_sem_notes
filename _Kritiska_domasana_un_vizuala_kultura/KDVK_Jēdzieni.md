@@ -52,6 +52,19 @@ Kaut kas kas netieši pateikts
 Pretējs [[#Eksplicīts]]
 
 No [[2025-02-06#KDVK]]
+
+## Ikona
+
+[[#Zīme]] ir _līdzīga_ tam ko tā nozīmē
+
+Kā piemērs: Picērijas logo ar picas šķēli.
+
+## Indekss
+
+[[#Zīme]], kas fiziski saistīta ar to, ko tā nozīmē
+
+Piemērs: termometra attēls apzīmē fizisku priekšmetu, tā stabiņš mainās no siltuma.
+
 # Ī
 
 # J
@@ -90,6 +103,14 @@ No [[2025-02-06#Kritiskā domāšana]]
 
 # N
 
+## Nošķīrums
+
+Process, kurā skaņas/impulsus/konceptus nošķir no citiem. Bez tā viss būtu saistīts un neiegūtu savu atsevišķo nozīmi
+
+Skat. [[#Sasaistes]]
+
+No [[2025-03-13#Pretstati, opozīcijas]]
+
 # Ņ
 
 # O
@@ -121,6 +142,14 @@ No [[2025-02-06#Retorika]]
 
 # S
 
+## Sasaistes
+
+Process, kurā saista konceptus/skaņas ar konceptiem.
+
+Skat. [[#Nošķīrums]]
+
+No [[2025-03-13#Pretstati, opozīcijas]]
+
 ## Secinājums
 
 Apgalvojums, kuru balsta [[#Premise|premise]]
@@ -130,8 +159,17 @@ Sastāv no [[#Spriedums|spriedumiem]]
 ## Semiotika
 
 Mācība par zīmēm, zīmju uztveri.
+Zinātne par zīmēm.
+
+Skat. [[#Zīme]]
 
 No [[2025-02-06#KDVK]]
+
+## Simbols
+
+[[#Zīme]] ir konvencionāli saistīta ar to, ko tā nozīmē.
+
+Piemērs: vārdi. Tie ir pieņemti bez nekādas saistības ar pašu konceptu. Dažādās valodās ir dažādi vārdi konceptiem.
 
 ## Spriedums
 
@@ -155,4 +193,15 @@ Teksts, kuram iespējams piešķirt patiesumvērtību (Patiess vai Aplams)
 
 # Z
 
+## Zīme
+
+Apzīmētāja un apzīmējamā kopums.
+
+Kā piemērs:
+- vārda "koks" izruna - apzīmētājs
+- Koka koncepts - apzīmējamais.
+
+Vēl viens piemērs:
+- Skaistas sievietes attēls - apzīmētājs
+- Skaistums kā koncepts - apzīmējamais.
 # Ž
