@@ -89,6 +89,59 @@ $$
 
 # D
 
+## Difūzijas transformācija
+
+Pieņem $N$ [[#Bāzes stāvoklis|bāzes stāvokļus]] $\ket{1}, \ket{2},\ket{3},\ket{4}\cdots \ket{N}$
+Stāvoklis ir $a_1\ket{1}, a_2\ket{2},a_3\ket{3},a_4\ket{4}\cdots a_n\ket{N}$
+$N=2^k$ - $k$ kubiti
+
+$$
+D_N=\left(
+\begin{matrix}
+-1+\frac{2}{N} & \frac{2}{N} & \cdots  & \frac{2}{N} \\
+\frac{2}{N} & -1+\frac{2}{N} & \cdots & \frac{2}{N} \\
+\vdots & \vdots & \ddots & \vdots\\
+\frac{2}{N} & \frac{2}{N} & \cdots & -1 + \frac{2}{N} 
+\end{matrix}
+\right)
+$$
+$D_N$ ir unitāra, tās rindas ir vektori ar garumu $1$
+$D_N$ rindas ir savstarpēji perpendikulāri vektori
+
+Transformācija veidojama šādi:
+![[Pasted image 20250327110753.png]]
+$$
+\begin{matrix}
+a_1\ket{1} + a_2 \ket{2} \cdots a_N \ket{N}\rightarrow\\\rightarrow
+\sum_{i=1}^{n}{a_i\left(\frac{2}{N}\ket{1} + \cdots + \left(-1+\frac{2}{N}\right)\ket{i} + \cdots + \frac{2}{N}\ket{N} \right)} =\\=
+\sum_{j=1}^{n} {\left(\frac{2}{N}a_1 + \cdots + \left(-1+\frac{2}{N}\right)a_i + \cdots + \frac{2}{N}a_n\right)\ket{j}} = \sum_{j=1}^{n}{b_j\ket{j}}
+\end{matrix}
+$$
+$$
+b_j = -a_j + 2\frac{a_1+\cdots+a_N}{N} = 2V -a_j
+$$
+šeit $V$ - visu elementu vidējais aritmētiskais.
+
+$a_j = V + c_j$ jeb $a_j$ ir vidējās vērtības un novirzes no tās, summa.
+$b_j = 2V - a_j = 2V - (V+c_j) = V-c_j$
+
+Šī transformācija spēj apgriezt visus koeficientus ap vidējo [[#Bāzes stāvoklis|bāzes stāvokļu]] vērtību
+
+Skat. [[2025-03-27#Difūzijas transformācija]]
+
+## Doiča problēma
+
+Dota shēma, kas rēķina $f(x)$, $x \in \left\{0,1\right\}, f(x) \in \left\{0,1\right\}$
+
+$\ket{x} \rightarrow \ket{x}, f(x)=0$
+$\ket{x} \rightarrow -\ket{x}, f(x) = 1$
+
+Uzdevums: izrēķināt $(f(0)+f(1))\mod 2$
+
+Risinājums: $H, f, H$
+Skat. [[#Hadamarda transformācija]]
+No [[2025-03-20#Doiča problēma]]
+
 ## Dubultkontrolētais NOT (CCNOT)
 
 $$
@@ -198,6 +251,15 @@ Lineāra transformācija, kuras rezultātā nemainās garums ir [[#Unitāra tran
 # M
 
 # N
+
+## Netīra realizācija
+
+$\ket{x,0,0} \rightarrow \ket{x, f(x), g(x)}$
+
+Netīra realizācija nonāk pie rezultāta, taču maina starprezultātus un neatgriež tos sākotnējā stāvoklī.
+
+Skat [[#Tīra realizācija]]
+No [[2025-03-20#Tīra realizācija]]
 
 ## Normalizēts kvantu stāvoklis
 
@@ -310,6 +372,10 @@ No 2 vai vairāk [[#Kubits|kubitiem]] izsakāms [[#Kvantu stāvoklis|kvantu stā
 
 # Š
 
+## Šora algoritms
+
+#todo
+
 # T
 
 ## Tensoru reizināšana
@@ -330,6 +396,13 @@ $$
 \end{matrix}
 
 $$
+
+## Tīra realizācija
+$\ket{x,0,0} \rightarrow \ket{x,f(x), 0}$
+Visi starprezultāti paliek 0.
+
+Skat [[#Netīra realizācija]]
+No [[2025-03-20#Tīra realizācija]]
 
 ## Toffoli elements
 ![[#Dubultkontrolētais NOT (CCNOT)]]

@@ -147,6 +147,14 @@ Programmu uztver kā grafu, kur viena veida operācija (komanda) pāriet citā. 
 Skatīt [[#Dabiskā semantika]]
 Skatīt [[#Semantika]]
 
+## Operacionālās semantikas vispārīgais modelis
+
+`M = <S, V, ->, I, F>`
+`S` - Stāvokļu kopa, konfigurāciju kopa
+`V` - Programmas ievada un izvada darbību kopa
+`-> =S x V x S` - Pāreju attiecība parasti determinēta
+`I` - Sākuma stāvokļu kopa
+`F` - Beigu stāvokļu kopa
 
 # P
 

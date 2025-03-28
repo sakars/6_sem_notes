@@ -24,6 +24,9 @@ Visi 3 ir spriedumi
 
 # D
 
+## Denotāts
+#todo 
+
 # E
 
 ## Eksplicīts
@@ -71,6 +74,21 @@ Piemērs: termometra attēls apzīmē fizisku priekšmetu, tā stabiņš mainās
 
 # K
 
+## Kods
+
+Aptuveni - veids kā komunicēt informāciju.
+
+Viens koda piemērs ir valoda.
+Valoda ir kā zīmju sistēma un valodisku ieradumu, noteikumu kopums
+Vienlaicīgi tā ir individuālu valodas lietojuma aktu kopums.
+Valoda vienlaicīgi padara sarunu iespējamu un vienlaicīgi to ierobežo.
+
+Vēl viens piemērs ir luksofora gaismas: zaļš - brauc, dzeltens - uzmanies, sarkans - stāt.
+
+No [[2025-03-27#KDVK]]
+## Konotācija
+#todo 
+
 ## Kritiskā domāšana
 
 Mana definīcija:
@@ -100,6 +118,17 @@ No [[2025-02-06#Kritiskā domāšana]]
 # Ļ
 
 # M
+## Metaforas
+
+[[#Trops]], kas veidojas vārda nozīmes pārnesumā, balstīta uz līdzību starp divām savā starpā atšķirīgām tēmām.
+
+> Diskusija ir cīņa
+
+> Laulība ir darbs
+
+> Dzīve iet uz augšu
+
+Skat. [[2025-03-27#KDVK]]
 
 # N
 
@@ -179,11 +208,17 @@ Teksts, kuram iespējams piešķirt patiesumvērtību (Patiess vai Aplams)
 
 # T
 
+## Trops
+
+Vārdu savienojums vai izteiciens, kas lietots pārnestā nozīmē.
+
 # U
 
 # Ū
 
 # V
+
+
 
 # W
 
